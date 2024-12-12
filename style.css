@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins';
+}
+
+/* hero */
+
+.hero {
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #7b7de5;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 5rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar-list a {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.navbar-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar-icon a i {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.menu {
+  display: none;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 5rem;
+  gap: 5rem;
+}
+
+.home-img {
+  width: 1100px;
+}
+
+.home-img img {
+  width: 100%;
+}
+
+.home-content {
+  display: block;
+  justify-content: center;
+  row-gap: 5rem;
+}
+
+.home-content h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.3;
+}
+
+.home-content p {
+  margin: 2rem 0;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.home-content button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #000;
+  background: #ececec;
+}
+
+/* product */
+
+.product {
+  margin-top: 10rem;
+  padding: 0 5rem;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.discount h1 {
+  color: #000;
+  font-size: 3rem;
+}
+
+.discount button {
+  margin-top: 5rem;
+  padding: 1rem 4rem;
+  background: #7b7de5;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.product-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#card {
+  background: #7b7de5;
+  padding: 2rem 0;
+  border-radius: 10px;
+  transform: scale(1);
+}
+
+#card {
+  width: 350px;
+}
+
+#card img {
+  width: 100%;
+}
+
+#card p {
+  padding: 0 1rem;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+#card:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
+  box-shadow: 3px 3px 5px #000;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  color: #fff;
+}
+
+/* about */
+
+.about {
+  margin-top: 5rem;
+  padding: 3rem 5rem;
+  background: #ececec;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.about-img {
+  width: 2000px;
+}
+
+.about-img img {
+  width: 100%;
+}
+
+.about-content h2 {
+  color: #000;
+  font-size: 2rem;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  color: #000;
+  margin: 2rem 0;
+}
+
+.about-content button {
+  padding: 1rem 2rem;
+  background: #7b7de5;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* contact */
+
+.contact {
+  margin-top: 5rem;
+  padding: 2rem 5rem;
+  background: #7b7de5;
+  color: #fff;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.contact-container h2 {
+  font-size: 2rem;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.contact-form input {
+  display: block;
+  background: transparent;
+  border-bottom: 2px solid #fff;
+  width: 70%;
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  color: #fff;
+}
+
+.contact-form input::placeholder {
+  color: #fff;
+}
+
+.contact-form input:focus {
+  outline: none;
+}
+
+.contact-form button {
+  padding: 1rem 2rem;
+  background: #ececec;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.social-content {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.social-content a i {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.address p {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+/* media queries */
+
+@media (max-width: 980px) {
+  html {
+    font-size: 75%;
+  }
+
+  .hero {
+    height: 95vh;
+  }
+
+  .home-img {
+    width: 950px;
+  }
+
+  #card {
+    width: 250px;
+  }
+}
+
+@media (max-width: 875px) {
+  html {
+    font-size: 65%;
+  }
+
+  .hero {
+    height: 85vh;
+  }
+
+  .home-img {
+    width: 800px;
+  }
+  .product-container {
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+  }
+
+  .discount {
+    text-align: center;
+  }
+
+  .discount button {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 750px) {
+  html {
+    font-size: 55%;
+  }
+
+  .hero {
+    height: 70vh;
+  }
+
+  .home-img {
+    width: 600px;
+  }
+
+  #card {
+    width: 200px;
+  }
+
+  .about-img {
+    width: 1500px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 70%;
+  }
+
+  .hero {
+    height: 100%;
+  }
+
+  .navbar-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    background: #ececec;
+    padding: 2rem 0;
+  }
+
+  .navbar-list a {
+    color: #000;
+  }
+
+  .navbar-list.active {
+    display: flex;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .menu button {
+    cursor: pointer;
+    background: transparent;
+  }
+
+  .menu button i {
+    font-size: 3rem;
+    color: #fff;
+  }
+
+  .menu button:focus {
+    outline: none;
+  }
+
+  .navbar-icon a i {
+    font-size: 2rem;
+  }
+
+  .home {
+    flex-wrap: wrap-reverse;
+  }
+  .home-img {
+    height: 350px;
+    overflow: hidden;
+  }
+
+  .product {
+    margin-top: 10rem;
+    padding: 0 3rem;
+  }
+
+  .product-card {
+    flex-flow: wrap;
+  }
+
+  .about-container {
+    flex-flow: wrap;
+  }
+
+  .contact-container {
+    flex-flow: wrap;
+    gap: 5rem;
+  }
+
+  .contact-form input {
+    width: 100%;
+  }
+
+  .contact-more {
+    text-align: center;
+  }
+
+  .social-content {
+    justify-content: center;
+  }
+
+  .address {
+    margin-top: 3rem;
+  }
+}
